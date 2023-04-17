@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Expandable Notifications for GNOME"
+date:   2023-04-17 13:11:27 +0200
+categories: Open Source Stuff
+---
+
+The problem that I was trying to solve for my Bachelor thesis was the lack of actions as well as a shortened text of notifications in the
+notification list for GNOME. This is especially bad in case there is a security related notification that needs the user
+to take an action. In case they miss the original notification, they might not be able to take another chance at choosing an action. Best case the user in this scenario decides to respawn the notification. Worst case they end up ignoring that notification.
+
+To solve this problem, I tackled the task to write an extension for the GNOME Shell. The code of the extension is pretty simple, all it does is replace the notification object in the notification list with the object that is displayed on the desktop (that has the actions and full text, as well as properties to expand that notification). With some more tweaking of the notification list and the body of the notification, voila!
+
+I have done user tests to verify that this addition indeed works, and that the work to complete security-related tasks was reduced.
+Also, a lof of people just seem to like the extension as it provides just in general more user friendly notifications.
+
+You can find the extension [here](https://extensions.gnome.org/extension/4463/expandable-notifications/).
+You can find the source code [here](https://github.com/kaanginam/expandable-notifications).
