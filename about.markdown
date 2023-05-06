@@ -27,3 +27,9 @@ Stuff I have experience in:
 - Open OnDemand
 - GNOME Shell
 - Streamlabs Chatbox editing
+
+## Donation
+
+If you wish to support me, you can send me money on [Ko-Fi](https://ko-fi.com/kaanginam).
+
+If you like Yu-Gi-Oh!, or gaming in general, feel free to check out my [twitch](https://twitch.tv/komupon) channel.
